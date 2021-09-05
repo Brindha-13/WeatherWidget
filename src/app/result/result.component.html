@@ -1,0 +1,18 @@
+{{weather.main.humidity}}
+{{weather.weather[0].description}}
+<div class="jumbotron">
+
+    <div class="card" style="width: 25;">
+        <h2 class="card-title"><b>Weather Details for {{cityName}}</b></h2>
+        <img class="card-img-top" [src]="imageUrl" alt="Card image cap"><b>{{weather.weather[0].description}}</b>
+        <div class="card-body">
+          
+          <p class="card-text"><b>Temperature:<br>{{weather.main.temp_max}}°C</b></p>
+          <p class="card-text"><b>Lattitude:<br>{{weather.coord.lat}}°N</b></p>
+          <p class="card-text"><b>Longitude:<br>{{weather.coord.lon}}°W</b></p>
+          <button class="btn btn-success" (click)="onshow()">Back</button>
+        </div>
+      </div>
+</div>
+
+

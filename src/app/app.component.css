@@ -1,0 +1,18 @@
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/pexels-pixabay-314726.jpg");
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnstyle{
+    padding: 20px;
+}
