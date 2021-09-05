@@ -1,5 +1,6 @@
 body{
-    background: radial-gradient(#1a82f7, #2F2525) no-repeat fixed;
+    /*background: radial-gradient(#1a82f7, #2F2525) no-repeat fixed;*/
     margin: 0px;
+    background-image: url("app/images/pexels-pixabay-314726.jpg");
 
 }
